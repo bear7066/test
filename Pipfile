@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+llama-index = "*"
+python-dotenv = "*"
+llama-index-embeddings-huggingface = "*"
+llama-index-readers-file = "*"
+pymupdf = "*"
+llama-index-vector-stores-postgres = "*"
+llama-index-llms-llama-cpp = "*"
+llama-cpp-python = "*"
+psycopg2-binary = "*"
+pgvector = "*"
+asyncpg = "*"
+greenlet = "*"
+sqlalchemy = {extras = ["asyncio"], version = "*"}
+psycopg2 = "*"
+llama-index-agent-openai = "*"
+certifi = "*"
+llama-index-retrievers-bm25 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
